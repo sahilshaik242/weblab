@@ -1,0 +1,10 @@
+<students>
+   <student1>
+      <name>Ratan</name>
+      <marks>70</marks>
+   </student1>
+   <student2>
+      <name>Aryan</name>
+      <marks>60</marks>
+   </student2>
+</students>

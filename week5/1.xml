@@ -1,0 +1,5 @@
+<service>
+<to>customer</to>
+<from>jio serviece center</from>
+<message>YOUR MOBILE PHONE IS NOW WORKING WELL!</message>
+</service>
