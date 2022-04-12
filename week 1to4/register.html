@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+    <style>
+      label {
+        margin-left: 200px;
+      }
+    </style>
+    <style>
+      input {
+        padding: left 10px;
+        margin-block-start: 20px;
+      }
+    </style>
+    <script type="text/javascript" src="register.js"></script>
+  </head>
+  <body>
+    <center>
+      <label style="font-family: 'Times New Roman', Times, serif"
+        >User Name :
+      </label>
+      <input placeholder="Enter your Name" id="username" />
+      <br />
+      <label style="font-family: 'Times New Roman', Times, serif"
+        >Date Of Birth :
+      </label>
+      <input placeholder="Enter your Date of Birth" />
+      <br />
+      <label style="font-family: 'Times New Roman', Times, serif"
+        >Address :
+      </label>
+      <input placeholder="Provide your address" />
+      <br />
+      <label style="font-family: 'Times New Roman', Times, serif"
+        >Enter your mail ID :
+      </label>
+      <input placeholder="Enter here" id="email" />
+      <br />
+      <label style="font-family: 'Times New Roman', Times, serif"
+        >Enter your phone number:
+      </label>
+      <input placeholder="Phone number" id="phone" name="phone" />
+      <br />
+      <label> Gender : </label>
+      <input type="radio" name="male" /> Male
+      <input type="radio" name="female" /> Female
+      <input type="radio" name="other" /> Other
+      <br />
+      <br />
+
+      <label style="font-family: 'Times New Roman', Times, serif"
+        >Password :
+      </label>
+      <input placeholder="Min 8 char " id="pass" />
+      <br />
+      <label style="font-family: 'Times New Roman', Times, serif"
+        >Confirm Password :
+      </label>
+      <input placeholder="Match it with your Password" id="repass" />
+      <br />
+      <br />
+      <br />
+      <button style="margin: auto" onclick="verifyuser()">
+        Create Account
+      </button>
+    </center>
+  </body>
+</html>
